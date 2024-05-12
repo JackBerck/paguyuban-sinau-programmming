@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>HMIF</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .h {
+        color: #4285f4;
+      }
+      .m {
+        color: #db4437;
+      }
+      .i {
+        color: #f4b400;
+      }
+      .f {
+        color: #0f9d58;
+      }
+
+      .menu {
+        display: inline-block;
+        background-color: #3498db;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+      }
+
+      .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #2980b9;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .menu:hover .submenu {
+        display: block;
+      }
+
+      .beranda {
+        background-color: #0f9d58;
+      }
+      .divisi {
+        background-color: #f4b400;
+      }
+      .tentang-kami {
+        background-color: #db4437;
+      }
+      .kontak {
+        background-color: #3498db;
+      }
+
+      .kotak {
+        margin-top: 50px;
+      }
+      .kotak > div {
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .kotak-1 {
+        background-color: #db4437;
+        font-weight: bold;
+      }
+      .kotak-2 {
+        background-color: #0f9d58;
+        font-style: italic;
+      }
+      .kotak-3 {
+        background-color: #3498db;
+        text-decoration: underline;
+      }
+
+      footer {
+        margin-top: 20px;
+        text-align: center;
+        color: rgb(50, 50, 50);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <span class="h">H</span><span class="m">M</span><span class="i">I</span
+      ><span class="f">F</span>
+    </h1>
+    <nav>
+      <div class="menu beranda">Beranda</div>
+      <div class="menu divisi">
+        Divisi
+        <div class="submenu">
+          <div>BPH</div>
+          <div>Medkominfo</div>
+          <div>Edukasi</div>
+          <div>Humas</div>
+          <div>PSDM</div>
+          <div>Iltek</div>
+          <div>Kreus</div>
+          <div>Mikat</div>
+        </div>
+      </div>
+      <div class="menu tentang-kami">Tentang Kami</div>
+      <div class="menu kontak">Kontak</div>
+    </nav>
+    <div class="kotak">
+      <div class="kotak-1"><p>Muhammad Zaki Dzulfikar</p></div>
+      <div class="kotak-2"><p>H1D023065</p></div>
+      <div class="kotak-3"><p>Ngga ngapa ngapain</p></div>
+    </div>
+    <footer>
+      <p>
+        Saya mengerjakan responsi ini dengan sejujur-jujurnya dan tanpa
+        melakukan kecurangan dalam bentuk apapun
+      </p>
+    </footer>
+  </body>
+</html>
